@@ -1,0 +1,77 @@
+$theme-colors: (
+    primary: #82c8c2,
+    secondary: #c2a683
+);
+
+// -- custom colors
+$color-1: #82c8c2;
+$color-2: #c2a683;
+$color-3: #2e2e2e;
+$color-orange-light: #b8926f;
+$color-orange: #6e451f;
+
+$fa-font-path: "./../../../Public/Fonts/fontawesome";
+
+$black: #000000;
+$white: #ffffff;
+
+$body-highlight: #edfdfc;
+
+$body-bg: #fff;
+$body-color: #2e2e2e;
+$body-color-light: #828282;
+
+
+$link-color:            $color-1;
+$link-hover-color:      darken($link-color, 10%);
+
+$font-family-sans-serif:    'Quattrocento Sans', sans-serif;
+$font-family-monospace:     'Quattrocento Sans', sans-serif;
+$font-family-serif:         'Quattrocento Sans', sans-serif;
+$font-family-base:          $font-family-sans-serif;
+$font-family-accent:        'Raleway', sans-serif;
+$font-size-base: 16px;
+
+$font-weight-base: 400;
+$line-height-base: 1.6;
+
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$navbar-light-color:                $body-color;
+$navbar-light-hover-color:          $color-1;
+$navbar-light-active-color:         $color-1; //theme-color("primary");
+$navbar-light-disabled-color:       #5e5e5e;
+$navbar-light-toggler-border-color: transparent;
+
+$navbar-dark-color:                 $white;
+$navbar-dark-hover-color:           rgba($white, .5);
+$navbar-dark-active-color:          $white;
+$navbar-dark-disabled-color:        rgba($white, .25);
+$navbar-dark-toggler-border-color:  transparent;
+
+$border-radius-base: 0;
+
+$border-radius:         0;
+$border-radius-lg:      0;
+$border-radius-sm:      0;
+
+// -- Footer
+$footer-bg: #fff;
+$footer-font-size: $font-size-base;
+$footer-color: $body-color-light;
+$footer-link-color: $body-color;
+$footer-link-color-hover: $color-1;
+$footer-header-color: $color-1;
+
+$grid-gutter-width: 30px;
+
+// -- define spacings..
+$spacing-smaller:   $grid-gutter-width / 3;
+$spacing-small:     $grid-gutter-width;
+
+$spacing-medium:    $grid-gutter-width;
+$spacing-medium-md: $grid-gutter-width * 1.5;
+
+$spacing-large:     $grid-gutter-width + 10;
+$spacing-large-md: $grid-gutter-width * 2.5;
